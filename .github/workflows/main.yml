@@ -22,10 +22,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     # 在工作流中安装node环境（必需，这样才能在后续工作流程中运行 npm install 等指令，否则会报错）
-    - name: Setup node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 14 # 指定node版本
+    # - name: Setup node
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: 14 # 指定node版本
 
     # 打包代码生成环境  
     - name: Build
