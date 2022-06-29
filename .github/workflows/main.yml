@@ -18,8 +18,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v3
+      # 这是github官方的一个action，用于clone该仓库的源码到工作流中
+    - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
       
@@ -39,5 +39,5 @@ jobs:
         user: ${{ secrets.USER_NAME }}
         pass: ${{ secrets.USER_PASS }}
         connect_timeout: 10s
-        local: 'docs/.vuepress/dist/*'
-        remote: /home/dist
+        local: '/docs/.vuepress/dist/*'
+        remote: /home/
