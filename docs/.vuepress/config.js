@@ -38,14 +38,14 @@ module.exports = {
                 }
             ],
             // docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
-            '/pages/algorithm/': [
-                '/algorithm/', 
+            '/pages/front/html/': [
+                '/pages/front/html/', 
                 {
-                    title: '第二组侧边栏下拉框的标题1',
+                    title: 'HTML相关',
                     children: [
-                      '/algorithm/simple/test' 
+                      '/pages/front/html/meta' 
                     ]
-                }
+                },
             ]
         }
     }
