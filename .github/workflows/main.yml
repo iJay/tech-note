@@ -41,5 +41,5 @@ jobs:
         user: root
         pass: hb3215814!
         connect_timeout: 10s
-        local: '/docs/.vuepress/dist/*'
+        local: './docs/.vuepress/dist/*'
         remote: /home/dist/
