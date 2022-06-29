@@ -1,0 +1,17 @@
+{
+  "name": "tech-note",
+  "version": "1.0.0",
+  "description": "个人技术博客",
+  "main": "index.js",
+  "repository": "git@github.com:iJay/tech-note.git",
+  "author": "leo",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "private": false,
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
